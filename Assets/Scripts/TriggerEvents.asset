@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: TriggerEvents
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":147.0,"y":334.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"2b89ff41-f6de-46a5-b986-02fa8ff0bb64","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"470da257-89f6-47ba-aa19-5a8a8e6f98a5","$version":"A","$type":"Unity.VisualScripting.Update"},{"chainable":false,"member":{"name":"enabled","parameterTypes":null,"targetType":"UnityEngine.BoxCollider2D","targetTypeName":"UnityEngine.BoxCollider2D","$version":"A"},"defaultValues":{"target":null,"input":{"$content":false,"$type":"System.Boolean"}},"position":{"x":125.0,"y":250.0},"guid":"4ee82dd5-c58d-407e-a3a9-7777358144a2","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"13"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"TimeToRun","$type":"System.String"}},"position":{"x":-238.0,"y":246.0},"guid":"5fb7af3a-d153-47c6-af95-bc1d15629cec","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"16"},{"argumentCount":0,"defaultValues":{"name":{"$content":"TimeToRun","$type":"System.String"},"target":null},"position":{"x":418.0,"y":233.0},"guid":"b0a18434-6cb8-4003-a5c8-9d663c6a5f4d","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"18"},{"type":"UnityEngine.GameObject","value":{"$content":0,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":135.0,"y":403.0},"guid":"f75f6c22-3764-4a8e-8511-227c5dffc83f","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"20"},{"sourceUnit":{"$ref":"16"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"8fc9686f-aa3a-48ec-b742-ee7ddbfaf167","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"assigned","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"819674fc-0d8f-4be9-b6ff-eaa1b6509ac7","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"output","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"0c248176-8a1f-4a13-ac38-752c421012c7","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1437412259049476700, guid: 9aebca2f8935f8d43803a87f49f5860b, type: 3}
