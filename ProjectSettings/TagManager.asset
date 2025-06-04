@@ -7,9 +7,14 @@ TagManager:
   - Coin
   - Checkpoint
   - Killbox
-  - MovingWall
-  - TriggerEvents
-  - TriggerStopEvents
+  - Interactable
+  - End
+  - Trigger
+  - TriggerOff
+  - Trap
+  - Plushy
+  - Light
+  - Deckenlampe
   layers:
   - Default
   - TransparentFX
