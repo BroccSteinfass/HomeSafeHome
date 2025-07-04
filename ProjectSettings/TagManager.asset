@@ -13,8 +13,11 @@ TagManager:
   - TriggerOff
   - Trap
   - Plushy
-  - Light
   - Deckenlampe
+  - Jump_tut
+  - Move_tut
+  - Lightswitch
+  - Interact_tut
   layers:
   - Default
   - TransparentFX
