@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 389501413414141007}
   - component: {fileID: 1547658452092589768}
   - component: {fileID: 3822186549568818432}
+  - component: {fileID: -1539639468372659923}
   m_Layer: 0
   m_Name: Shelf_wall_0 1
   m_TagString: Untagged
@@ -146,7 +147,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 2, y: 0.6666667}
+    oldSize: {x: 3, y: 1}
     newSize: {x: 2, y: 0.6666667}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -154,3 +155,56 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2, y: 0.6666667}
   m_EdgeRadius: 0
+--- !u!114 &-1539639468372659923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3740970295615539865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_Priority: 0
+  m_ComponentVersion: 5
+  m_HasRenderer: 0
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_AlphaCutoff: 0.1
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -1.5, y: 0, z: 0}
+  - {x: -1.5, y: 1, z: 0}
+  - {x: 1.5, y: 1, z: 0}
+  - {x: 1.5, y: 0, z: 0}
+  m_ShapePathHash: 0
+  m_InstanceId: 0
+  m_ShadowShape2DComponent: {fileID: 389501413414141007}
+  m_ShadowShape2DProvider:
+    rid: 5021495206942605403
+  m_ShadowCastingSource: 2
+  m_ShadowMesh:
+    m_Mesh: {fileID: 0}
+    m_LocalBounds:
+      m_Center: {x: 0, y: 0.5, z: 0}
+      m_Extent: {x: 1.449997, y: 0.44999695, z: 0}
+    m_EdgeProcessing: 1
+    m_TrimEdge: 0.05
+    m_FlipX: 0
+    m_FlipY: 0
+    m_InitialTrim: 0.05
+  m_CastingOption: 1
+  m_PreviousTrimEdge: 0
+  m_PreviousEdgeProcessing: -1
+  m_PreviousShadowCastingSource: -1
+  m_PreviousShadowShape2DSource: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 5021495206942605403
+      type: {class: ShadowShape2DProvider_SpriteRenderer, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data: 
