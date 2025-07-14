@@ -19,6 +19,8 @@ TagManager:
   - Lightswitch
   - Interact_tut
   - Back
+  - Trap2
+  - Checkpoint_Light
   layers:
   - Default
   - TransparentFX

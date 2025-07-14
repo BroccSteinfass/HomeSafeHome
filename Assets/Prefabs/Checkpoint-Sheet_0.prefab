@@ -124,9 +124,12 @@ GameObject:
   - component: {fileID: 979221161441068427}
   - component: {fileID: 8575783110861678434}
   - component: {fileID: 241470633951875486}
+  - component: {fileID: 8149575773213402413}
+  - component: {fileID: 1876089020995748263}
+  - component: {fileID: 3966737890025298018}
   m_Layer: 0
   m_Name: Checkpoint-Sheet_0
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144,6 +147,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 6789235578461736878}
   - {fileID: 9083227485187603601}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -234,9 +238,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 98eb9d613c6cc47479e83699f795d9ac, type: 3}
-  m_Resource: {fileID: 8300000, guid: 98eb9d613c6cc47479e83699f795d9ac, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 89f3f0e5189d0fd4099d45f4b941e8bf, type: 3}
+  m_Resource: {fileID: 8300000, guid: 89f3f0e5189d0fd4099d45f4b941e8bf, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -321,3 +325,157 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!61 &8149575773213402413
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7927418032483773014}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 2}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1, y: 4}
+    newSize: {x: 1, y: 4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 4}
+  m_EdgeRadius: 0
+--- !u!114 &1876089020995748263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7927418032483773014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Checkpoint_Light","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8898909895571226065}
+--- !u!114 &3966737890025298018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7927418032483773014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 66106f8ea5a4dbe44ae1e412b8c95507, type: 2}
+--- !u!1001 &157421154128501887
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1217498045111889202}
+    m_Modifications:
+    - target: {fileID: 6635896258216186833, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635896258216186833, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635896258216186833, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635896258216186833, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635896258216186833, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635896258216186833, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635896258216186833, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635896258216186833, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635896258216186833, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635896258216186833, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8741489979543069102, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+      propertyPath: m_Name
+      value: Checkpoint_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 8741489979543069102, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint_Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 9002140659366824281, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+--- !u!4 &6789235578461736878 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635896258216186833, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+  m_PrefabInstance: {fileID: 157421154128501887}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8898909895571226065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8741489979543069102, guid: e1f3f24ff800ff54d8be7fe3b900b53a, type: 3}
+  m_PrefabInstance: {fileID: 157421154128501887}
+  m_PrefabAsset: {fileID: 0}
