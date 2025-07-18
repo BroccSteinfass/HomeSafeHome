@@ -21,6 +21,10 @@ TagManager:
   - Back
   - Trap2
   - Checkpoint_Light
+  - Reset_tut
+  - Trigger_Stop
+  - Trigger_Trigger
+  - Trigger_Follower
   layers:
   - Default
   - TransparentFX
