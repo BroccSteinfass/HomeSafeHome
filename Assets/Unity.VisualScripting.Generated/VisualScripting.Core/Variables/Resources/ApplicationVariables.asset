@@ -19,7 +19,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Flashlight","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 5266636914463669879, guid: 7738bb78aa8332e46b7d314b57dd8292, type: 3}
+    - {fileID: 1565953099460442077, guid: 726e8fef8d3e99040a2f6343445dd92f, type: 3}
     - {fileID: 4918518681186383573, guid: 9b775672c4f50f343b49e710050ac1f6, type: 3}
     - {fileID: 3558662932916050637, guid: c36eceb026b4ef443afcd0bbb43b9922, type: 3}
     - {fileID: 2899376250792778259, guid: 1bf0f0ddf2f6d1140911ce3c36117b13, type: 3}
