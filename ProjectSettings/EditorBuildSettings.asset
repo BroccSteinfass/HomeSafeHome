@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hallway.unity
     guid: 73c4e4d96fb1ddd49827f71b3f682e2d
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 16d58cd98222e894a9fe6e3121411935
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

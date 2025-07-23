@@ -25,6 +25,7 @@ TagManager:
   - Trigger_Stop
   - Trigger_Trigger
   - Trigger_Follower
+  - Trigger_Scream
   layers:
   - Default
   - TransparentFX
