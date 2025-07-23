@@ -39851,11 +39851,12 @@ PrefabInstance:
         UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HandSounds","value":{"$content":41,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
         UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HandSounds2","value":{"$content":42,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
         UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player_Input","value":{"$content":43,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.InputSystem.PlayerInput,
-        Unity.InputSystem, Version=1.13.1.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        Unity.InputSystem, Version=1.13.1.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Soundtrack","value":{"$content":44,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1295831780529614321, guid: 726e8fef8d3e99040a2f6343445dd92f, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 44
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1295831780529614321, guid: 726e8fef8d3e99040a2f6343445dd92f, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
@@ -40033,6 +40034,10 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[43]'
       value: 
       objectReference: {fileID: 4428417559353147523}
+    - target: {fileID: 1295831780529614321, guid: 726e8fef8d3e99040a2f6343445dd92f, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[44]'
+      value: 
+      objectReference: {fileID: 7747844810535171336}
     - target: {fileID: 1565953099460442077, guid: 726e8fef8d3e99040a2f6343445dd92f, type: 3}
       propertyPath: m_Name
       value: Player
@@ -40130,6 +40135,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 726e8fef8d3e99040a2f6343445dd92f, type: 3}
+--- !u!82 &7747844810535171336 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8944538069674067243, guid: 726e8fef8d3e99040a2f6343445dd92f, type: 3}
+  m_PrefabInstance: {fileID: 7747844810535171335}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7903213218337560273
 PrefabInstance:
   m_ObjectHideFlags: 0
