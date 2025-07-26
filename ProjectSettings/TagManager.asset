@@ -9,8 +9,6 @@ TagManager:
   - Killbox
   - Interactable
   - End
-  - Trigger
-  - TriggerOff
   - Trap
   - Plushy
   - Deckenlampe
@@ -27,6 +25,7 @@ TagManager:
   - Trigger_Follower
   - Trigger_Scream
   - Fear_tut
+  - Key_tut
   layers:
   - Default
   - TransparentFX
