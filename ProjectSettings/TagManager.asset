@@ -26,6 +26,7 @@ TagManager:
   - Trigger_Trigger
   - Trigger_Follower
   - Trigger_Scream
+  - Fear_tut
   layers:
   - Default
   - TransparentFX
